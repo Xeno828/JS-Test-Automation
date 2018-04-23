@@ -1,0 +1,24 @@
+{
+  "name": "js-test-automation",
+  "version": "1.0.0",
+  "description": "A JavaScript framework, using Nightwatch and selenium.",
+  "main": "index.js",
+  "dependencies": {
+    "chromedriver": "^2.38.0",
+    "nightwatch": "^0.9.20"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xeno828/JS-Test-Automation.git"
+  },
+  "author": "josh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xeno828/JS-Test-Automation/issues"
+  },
+  "homepage": "https://github.com/Xeno828/JS-Test-Automation#readme"
+}
