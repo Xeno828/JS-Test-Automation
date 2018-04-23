@@ -1,0 +1,8 @@
+#ignores the reports generated
+reports/
+
+#ignores selenium-debug logs generated
+/selenium-debug.log
+
+#Ignores node modules
+node_modules/
