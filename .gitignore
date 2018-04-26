@@ -6,3 +6,4 @@ reports/
 
 #Ignores node modules
 node_modules/
+*.log
