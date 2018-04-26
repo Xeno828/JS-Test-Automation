@@ -6,4 +6,9 @@ reports/
 
 #Ignores node modules
 node_modules/
+
+#Ignore logs
 *.log
+
+#Ignore screenshots
+*.png

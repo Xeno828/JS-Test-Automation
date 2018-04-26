@@ -4,15 +4,22 @@
   "description": "A JavaScript framework, using Nightwatch and selenium.",
   "main": "index.js",
   "dependencies": {
-    "allure": "0.0.0",
-    "chromedriver": "^2.38.0",
+    "chromedriver": "^2.38.2",
+    "cucumber": "^4.0.0",
+    "env2": "^2.2.0",
+    "geckodriver": "^1.11.0",
     "nightwatch": "^0.9.20",
-    "nightwatch-html-reporter": "^2.0.5"
+    "nightwatch-cucumber": "^9.1.2",
+    "nightwatch-html-reporter": "^2.0.5",
+    "selenium-server": "^3.11.0"
+  },
+  "scripts": {
+    "test": "nightwatch --env local",
+    "ie": "nightwatch -e ie11",
+    "sauce": "nightwatch -e chrome,ie11,android_s4_emulator,iphone_6_simulator",
+    "e2e": "npm run sauce"
   },
   "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Xeno828/JS-Test-Automation.git"
