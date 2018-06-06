@@ -1,0 +1,43 @@
+export default {
+  'type': 'dev1',
+  'name': 'Dev Environment 1',
+  'url': 'https://nwb-dev1.securebusiness.managedtest.com:15011/content/secure/natwest/#/',
+  'credentials': {
+    'customerId': '',
+    'loginId': '',
+    'pin': '',
+    'pass': '',
+  },
+  'browser': {
+    'localhost': {
+      'browserName': 'firefox',
+      'platform': 'ANY',
+      'handlesAlerts': true,
+      'javascriptEnabled': true,
+      'marionette': true,
+      'acceptSslCerts': true,
+      'nativeEvents': true,
+      'acceptInsecureCerts': true,
+      'elementScrollBehaviour': 1,
+    },
+    'sauceLabs': {
+      'browserName': 'firefox',
+      'version': '58',
+      'platform': 'WIN7',
+      'handlesAlerts': true,
+      'javascriptEnabled': true,
+      'name': 'Dashboard Test',
+      'nativeEvents': true,
+      'elementScrollBehaviour': 1,
+      'tunnel-identifer': 'DIGITALSTUDIOSECURE',
+      'parentTunnel': 'RBS_Admin',
+    },
+  },
+  'selenium': {
+    'proxy': '',
+    'selenium_host': 'ondemand.saucelabs.com',
+    'selenium_port': 80,
+    'username': 'bruenj',
+    'access_key': 'db8ba08c-0fcf-4e16-8cec-cb95d2bf7263',
+  },
+}

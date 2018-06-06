@@ -1,0 +1,43 @@
+export default {
+  'type': 'localhost',
+  'name': 'Local Environment',
+  'url': 'http://localhost:8080/login',
+  'credentials': {
+    'customerId': '1',
+    'loginId': '1',
+    'pin': '',
+    'password': '',
+  },
+  'browser': {
+    'localhost': {
+      'browserName': 'firefox',
+      'platform': 'ANY',
+      'handlesAlerts': true,
+      'javascriptEnabled': true,
+      'marionette': true,
+      'acceptSslCerts': true,
+      'nativeEvents': true,
+      'acceptInsecureCerts': true,
+      'elementScrollBehaviour': 1,
+    },
+    'sauceLabs': {
+      'browserName': 'firefox',
+      'version': '58',
+      'platform': 'WIN7',
+      'handlesAlerts': true,
+      'javascriptEnabled': true,
+      'name': 'Dashboard Test',
+      'nativeEvents': true,
+      'elementScrollBehaviour': 1,
+      'tunnel-identifer': 'DIGITALSTUDIOSECURE',
+      'parentTunnel': 'RBS_Admin',
+    },
+  },
+  'selenium': {
+    'proxy': '',
+    'selenium_host': 'ondemand.saucelabs.com',
+    'selenium_port': 80,
+    'username': 'bruenj',
+    'access_key': 'db8ba08c-0fcf-4e16-8cec-cb95d2bf7263',
+  },
+}
